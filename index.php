@@ -73,14 +73,23 @@
                 <div class="col-lg-8">
                     <!-- Featured blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="assets/camp-15.jpg" alt="" /></a>
+                        <a href="#!"><img class="card-img-top" src="assets/assalt.jpg" alt="" /></a>
                         <div class="card-body">
-                            <div class="small text-muted">15 de Janeiro, 2023</div>
-                            <h2 class="card-title">Acontece a primeira rodada do Campeonato dos viajantes</h2>
-                            <p class="card-text">A primeira rodada do campeonato dos viajantes ocorreu no ultimo dia 15, no balneario paraiso dos amigos, com um total de 5 confrontos das equipes masculinas.</p>
-                            <a class="btn btn-primary" href="#!">Veja os resultados →</a>
+                            <div class="small text-muted">18 de Janeiro, 2023</div>
+                            <h2 class="card-title">Troca de tiros entre policiais e assaltantes deixa 2 mortos e um ferido</h2>
+                            <p class="card-text">Na tarde desta quarta feira assaltantes planejavam assalto a carro forte porém foram abordados por uma blitz e...</p>
+                            <a class="btn btn-primary" href="#!">Continuar lendo →</a>
                         </div>
                     </div>
+                    <div class="card mb-4">
+                        <a href="#!"><img class="card-img-top" src="assets/camp-15.jpg" alt="..." /></a>
+                        <div class="card-body">
+                            <div class="small text-muted">15 de Janeiro, 2023</div>
+                            <h2 class="card-title h4">Acontece a primeira rodada do Campeonato dos viajantes</h2>
+                            <p class="card-text">A primeira rodada do campeonato dos viajantes ocorreu no ultimo dia 15, no balneario paraiso dos amigos, com um total de 5 confrontos das equipes masculinas..</p>
+                            <a class="btn btn-primary" href="#!">Veja os resultados →</a>
+                        </div>
+                    </div> 
                     <!-- Nested row for non-featured blog posts-->
                     <div class="row">
                         <div class="col-lg-6">
