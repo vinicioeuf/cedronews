@@ -32,7 +32,7 @@
                         <li class="nav-item"><a class="nav-link" href="index.php">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Futebol</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Receitas</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,21 +45,22 @@
                     <br>
                     <div class="col-lg-8">
                         <div class="card mb-4 w-100-centered">
-                            <a href="#!"><img class="card-img-top" src="assets/assalt.jpg" alt="" /></a>
+                            <a href="#!"><img class="card-img-top" src="assets/camp-15.jpeg" alt="" /></a>
                             <div class="card-body">
-                                <div class="small text-muted">18 de Janeiro, 2023</div>
-                                <h2 class="card-title">Troca de tiros entre policiais e assaltantes deixa 2 mortos e um ferido</h2>
-                                <p class="card-text">Por volta das 15 horas da ultima quarta feira (18-01-2023) bandidos fortemente armados de fuzis, pistola e uma metralhadora trocaram tiros com a Polícia Militar, a troca de tiros ocorreu na BR-232, em frente ao Campus do Instituto Federal de Salgueiro que foi refém dos disparos, com alguns projéteis acertando paredes do Instituto como mostra nas imagens abaixo.</p>
-                                <img class="card-img-top" src="assets/bala.jpg" alt="" /></a>
-                                <img class="card-img-top" src="assets/bala2.jpg" alt="" /></a>
-                                <p class="card-text">Eles estavam em um Jeep Renegade, placa de Parnamirim Rio Grande do Norte, desobedeceram a ordem de parada efetuaram disparo contra os policiais até o momento não se sabe as identidades dos indivíduos. As informações dão conta que dois veio a óbito no local, e os outros dois conseguiram fugir estou na caatinga e um deles baleado, na ocorrência os bandidos abandonou uma metralhadora.</p>
+                                <div class="small text-muted">15 de Janeiro, 2023</div>
+                                <h2 class="card-title">Acontece a primeira rodada do Campeonato dos viajantes</h2>
+                                <p class="card-text">Na manhã do ultimo domingo (15) deu-se inicio o campeonato dos Viajantes, campeonato realizado no Aguas Park Paraiso dos Amigos no Sitio Recanto, municipio de Cedro-PE.</p>
+                                <img class="card-img-top" src="assets/camp-15.jpg" alt="" /></a>
+                                
+                                <p class="card-text">Os campeonatos regionais também são importantes para o crescimento econômico de uma área, já que eles atraem turistas e aumentam a visibilidade da região. Eles também podem ser usados como uma ferramenta para promover a inclusão social e a diversidade, oferecendo oportunidades para que pessoas de todas as origens e níveis socioeconômicos participem e sejam envolvidos no esporte.</p>
                             </div>
                         </div>
                     </div> 
                 </div>
+                
                 <div class="col-lg-4">
-                <br>
                     <!-- Search widget-->
+                    <br>
                     <div class="card mb-4">
                         <div class="card-header">Pesquisar</div>
                         <div class="card-body">
@@ -82,7 +83,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a href="campeonatos.php">Futebol</a></li>
+                                        <li><a href="#!">Futebol</a></li>
                                         <li><a href="#!">Campeonatos</a></li>
                                     </ul>
                                 </div>

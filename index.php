@@ -70,12 +70,12 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="assets/camp-15.jpg" alt="..." /></a>
+                                <a href="campeonatos.php"><img class="card-img-top" src="assets/camp-15.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">15 de Janeiro, 2023</div>
                                         <h2 class="card-title h4">Acontece a primeira rodada do Campeonato dos viajantes</h2>
                                         <p class="card-text">A primeira rodada do campeonato dos viajantes ocorreu no ultimo dia 15, no balneario paraiso dos amigos, com um total de 5 confrontos das equipes masculinas..</p>
-                                        <a class="btn btn-primary" href="#!">Veja os resultados →</a>
+                                        <a class="btn btn-primary" href="campeonatos.php">Veja os resultados →</a>
                                     </div>
                                 </div> 
                             <!-- Blog post-->
@@ -128,10 +128,10 @@
                         <ul class="pagination justify-content-center my-4">
                             <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Atual</a></li>
                             <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                            <!-- <li class="page-item"><a class="page-link" href="#!">2</a></li>
                             <li class="page-item"><a class="page-link" href="#!">3</a></li>
                             <li class="page-item"><a class="page-link" href="#!">15</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">Mais antiga</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">Mais antiga</a></li> -->
                         </ul>
                     </nav>
                 </div>
