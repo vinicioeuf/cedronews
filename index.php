@@ -23,16 +23,16 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #EEAD2D;">
             <div class="container">
-                <a class="navbar-brand" href="#!">Cedro news</a>
+                <a class="navbar-brand" href="index.php">Cedro news</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -40,27 +40,11 @@
         <!-- Page header with logo and tagline-->
         <header class="py-5 bg-light border-bottom mb-4">
             <div class="container row">
-                <div class="row" style="text-align: center; align-items: center; display: flex;">
+                <div class="row">
                     <!--Preço do dolar hoje-->
-                    <div class="col-sm-5" >
-                        <h1 class="fw-bolder">Dólar hoje</h1>
-                        <img class="card-img" src="assets/38852.png"style="width: 200px; height: 200px;" alt="" /></a>
-                        <p class="lead mb-0" style="color: red;">1 R$ = 5,08US$</p>
+                    <div class="text-center">
+                        <marquee behavior="" direction="">Agora, bandidos tentam assalto a carro forte e projéteis atingem Instituto Federal</marquee>
                     </div>
-                    
-                    <div class="col-sm-5" >
-                        <h1 class="fw-bolder">Bitcoin hoje</h1>
-                        <img class="card-img" src="assets/38853.png"style="width: 200px; height: 200px;" alt="" /></a>
-                        <p class="lead mb-0" style="color: green;">1 BTC = 109.035,25R$</p>
-                    </div>
-                    
-                    <div class="col-sm-2" style="position: relative;left:8vw;">
-                        <h1 class="fw-bolder" style="white-space: nowrap;">Euro hoje</h1>
-                        <img class="card-img" src="assets/38853.png"style="width: 200px; height: 200px;"  alt="" /></a>
-                        <p class="lead mb-0" style="color: green;">1 R$ = 5,52EUR</p>
-                    </div>
-                    
-                    
                     
                 </div>
                 
@@ -73,26 +57,27 @@
                 <div class="col-lg-8">
                     <!-- Featured blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="assets/assalt.jpg" alt="" /></a>
+                        <a href="materiadodia.php"><img class="card-img-top" src="assets/assalt.jpg" alt="" /></a>
                         <div class="card-body">
                             <div class="small text-muted">18 de Janeiro, 2023</div>
                             <h2 class="card-title">Troca de tiros entre policiais e assaltantes deixa 2 mortos e um ferido</h2>
                             <p class="card-text">Na tarde desta quarta feira assaltantes planejavam assalto a carro forte porém foram abordados por uma blitz e...</p>
-                            <a class="btn btn-primary" href="#!">Continuar lendo →</a>
+                            <a class="btn btn-primary" href="materiadodia.php">Continuar lendo →</a>
                         </div>
                     </div>
-                    <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="assets/camp-15.jpg" alt="..." /></a>
-                        <div class="card-body">
-                            <div class="small text-muted">15 de Janeiro, 2023</div>
-                            <h2 class="card-title h4">Acontece a primeira rodada do Campeonato dos viajantes</h2>
-                            <p class="card-text">A primeira rodada do campeonato dos viajantes ocorreu no ultimo dia 15, no balneario paraiso dos amigos, com um total de 5 confrontos das equipes masculinas..</p>
-                            <a class="btn btn-primary" href="#!">Veja os resultados →</a>
-                        </div>
-                    </div> 
+                    
                     <!-- Nested row for non-featured blog posts-->
                     <div class="row">
                         <div class="col-lg-6">
+                            <div class="card mb-4">
+                                <a href="#!"><img class="card-img-top" src="assets/camp-15.jpg" alt="..." /></a>
+                                <div class="card-body">
+                                    <div class="small text-muted">15 de Janeiro, 2023</div>
+                                        <h2 class="card-title h4">Acontece a primeira rodada do Campeonato dos viajantes</h2>
+                                        <p class="card-text">A primeira rodada do campeonato dos viajantes ocorreu no ultimo dia 15, no balneario paraiso dos amigos, com um total de 5 confrontos das equipes masculinas..</p>
+                                        <a class="btn btn-primary" href="#!">Veja os resultados →</a>
+                                    </div>
+                                </div> 
                             <!-- Blog post-->
                             <div class="card mb-4">
                                 <a href="#!"><img class="card-img-top" src="assets/sec.jpeg" alt="..." /></a>
@@ -170,7 +155,7 @@
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
                                         <li><a href="#!">Noticias gerais</a></li>
-                                        <li><a href="#!">Obras</a></li>
+                                        <li><a href="receitas.php">Receitas</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
