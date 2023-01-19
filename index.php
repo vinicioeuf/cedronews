@@ -117,7 +117,7 @@
                                     <p class="card-text">A jovem Layanne Soares é a única representante do Ceará na fase finalíssima do concurso, que terá transmissão ao vivo nesta terça-feira (17/01).</p>
                                     <a class="btn btn-primary" href="#!">Continuar lendo →</a>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                     <!-- Pagination-->
