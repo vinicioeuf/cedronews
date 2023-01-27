@@ -1,3 +1,13 @@
+<?php
+    session_start();
+    if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)){
+        unset($_SESSION['email']);
+        unset($_SESSION['senha']);
+        header("Location: login.php");
+    }
+      $logado = $_SESSION['email'];
+  
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -34,7 +44,7 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contato</a></li>
-                        
+                        <li class="nav-item"><a class="nav-link" href="login.php"  style="color: white; font-weight: bold;">Login</a></li>
                     </ul>
                 </div>
             </div>
