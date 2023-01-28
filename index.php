@@ -3,9 +3,10 @@
     if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)){
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header("Location: login.php");
     }
-      $logado = $_SESSION['email'];
+    else{
+        $logado = $_SESSION['email'];
+    }  
   
 ?>
 <!DOCTYPE html>
@@ -44,7 +45,16 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.php"  style="color: white; font-weight: bold;">Login</a></li>
+                        <?php 
+                            if((isset($_SESSION['email']) == true) and (isset($_SESSION['senha']) == true)){
+                                echo "<li class='nav-item'><a class='nav-link' href='perfil.php'  style='color: white; font-weight: bold;'>Conta</a></li>";
+                                echo "<li class='nav-item'><a class='nav-link' href='sair.php'  style='color: white; font-weight: bold;'>Sair</a></li>";
+                                
+                            }else{
+                                echo "<li class='nav-item'><a class='nav-link' href='login.php'  style='color: white; font-weight: bold;'>Login</a></li>";
+                            }
+                            ?>
+                        <!-- <li class="nav-item"><a class="nav-link" href="login.php"  style="color: white; font-weight: bold;">Login</a></li> -->
                     </ul>
                 </div>
             </div>
